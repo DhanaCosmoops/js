@@ -111,3 +111,27 @@ do{
     val1++;
 }
 while(val1<=20)
+
+//break
+for (let b=1;b<=20;b++)
+{
+    if(b%2==0)
+    {
+        if(b==10){
+            break;
+        }
+        console.log(b);
+    }
+}
+
+//continue
+for (let c=1;c<=20;c++)
+{
+    if(c%2==0)
+    {
+        if(c==10){
+            continue;
+        }
+        console.log(c);
+    }
+}
