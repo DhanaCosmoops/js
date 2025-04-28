@@ -1,0 +1,56 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    margin-top: 100px;
+}
+
+h1{
+    text-align: center;
+    padding:0px 0px 15px 0px;
+}
+#form-validate{
+    border:1px solid gray;
+    width:30vw;
+    min-width:300px;
+    height:60vh;
+    box-shadow: 2px 2px 5px pink;
+    margin:auto;
+    display:grid;
+    padding:20px;
+    font-size: 20px;
+}
+#form-validate .form-group{
+    display:flex;
+    flex-direction:column;
+}
+
+#form-validate .form-group label{
+    font-size:20px;
+    color:blue;
+}
+#form-validate .form-group input{
+    height:30px;
+    
+    border:none;
+    outline:none;
+    border-bottom: 1px solid rgb(20, 19, 19);
+    font-size:16px;
+    padding:5px;
+}
+
+#form-validate .form-group span{
+    color:red;
+    margin-top:5px;
+}
+
+#form-validate button{
+    height:35px;
+    background-color: darkturquoise;
+    font-size:20px;
+    color:white;
+    border-radius:5px;
+}
